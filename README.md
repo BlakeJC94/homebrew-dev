@@ -1,5 +1,7 @@
 # BlakeJC94 Dev
 
+A place for me to experiment with a few formulae.
+
 ## How do I install these formulae?
 
 `brew install blakejc94/dev/<formula>`
