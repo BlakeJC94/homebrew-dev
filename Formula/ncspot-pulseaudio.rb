@@ -5,15 +5,15 @@ class NcspotPulseaudio < Formula
   sha256 "316995d5bbef59c7a8699c8e7c3b3bc7699a38395a7d3500771abe4ca51b4d50"
   license "BSD-2-Clause"
 
-  bottle do
-    sha256 cellar: :any,                 arm64_ventura:  "3d912713dc057a1b1b95957850e71a88d4a382204ff60718f8b14fb5a1986e4e"
-    sha256 cellar: :any,                 arm64_monterey: "807465b0d1942c6971f89b1b049bf2cd6c9c1b0890fd73e0dda23d4739f148b1"
-    sha256 cellar: :any,                 arm64_big_sur:  "16d0072ddda73d202cbb65409197c00238a504869be436617cdce84677454cd1"
-    sha256 cellar: :any,                 ventura:        "ac7da81c028c0fb4dab99dc7978b4c2d9122c907ee34e1f242a3eba85b974f93"
-    sha256 cellar: :any,                 monterey:       "40076a581f28eb6dd56007ab237a3db5684f061f7243896bfa63efed7a6dcd54"
-    sha256 cellar: :any,                 big_sur:        "23462cf8974a2833674a31f24dd8788ad3818a78a3390efdf264088b5ab090be"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "edb49a2a675621273cb2b7023a27aa378825150a9b9f8123528be5c737954e6c"
-  end
+  # bottle do
+  #   sha256 cellar: :any,                 arm64_ventura:  "3d912713dc057a1b1b95957850e71a88d4a382204ff60718f8b14fb5a1986e4e"
+  #   sha256 cellar: :any,                 arm64_monterey: "807465b0d1942c6971f89b1b049bf2cd6c9c1b0890fd73e0dda23d4739f148b1"
+  #   sha256 cellar: :any,                 arm64_big_sur:  "16d0072ddda73d202cbb65409197c00238a504869be436617cdce84677454cd1"
+  #   sha256 cellar: :any,                 ventura:        "ac7da81c028c0fb4dab99dc7978b4c2d9122c907ee34e1f242a3eba85b974f93"
+  #   sha256 cellar: :any,                 monterey:       "40076a581f28eb6dd56007ab237a3db5684f061f7243896bfa63efed7a6dcd54"
+  #   sha256 cellar: :any,                 big_sur:        "23462cf8974a2833674a31f24dd8788ad3818a78a3390efdf264088b5ab090be"
+  #   sha256 cellar: :any_skip_relocation, x86_64_linux:   "edb49a2a675621273cb2b7023a27aa378825150a9b9f8123528be5c737954e6c"
+  # end
 
   depends_on "rust" => :build
   depends_on "portaudio"
