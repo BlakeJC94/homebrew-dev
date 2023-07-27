@@ -1,4 +1,4 @@
-class Ncspot < Formula
+class NcspotPulseaudio < Formula
   desc "Cross-platform ncurses Spotify client written in Rust"
   homepage "https://github.com/hrkfdn/ncspot"
   url "https://github.com/hrkfdn/ncspot/archive/v0.13.3.tar.gz"
